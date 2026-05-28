@@ -5,12 +5,6 @@ All notable changes to this project are documented here. The format follows
 [semantic versioning](https://semver.org/) — bump `version` in
 `sauna/manifest.xml` to match every release.
 
-## [Unreleased]
-
-### Added
-- `.gitignore` excluding `developer_key`, build outputs, and OS/IDE files —
-  safe to `git init` the repo without accidentally committing the signing key.
-
 ## [1.0.0] — 2026-05-27
 
 Initial release.
