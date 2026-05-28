@@ -1,0 +1,16 @@
+# Garmin developer signing key — never commit. Restore from
+# the GARMIN_DEV_KEY_BASE64 GitHub secret in CI.
+developer_key
+
+# Build outputs
+sauna/bin/
+*.prg
+*.iq
+*.iqz
+
+# OS / IDE / tools
+.DS_Store
+.vscode/
+.idea/
+.claude/
+*.swp
