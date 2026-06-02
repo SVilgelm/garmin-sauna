@@ -5,6 +5,19 @@ All notable changes to this project are documented here. The format follows
 [semantic versioning](https://semver.org/) — bump `version` in
 `sauna/manifest.xml` to match every release.
 
+## [1.1.0] — 2026-06-01
+
+### Added
+- Support for Garmin watches with a sub-display lens (Instinct 2 / 2S / 2X
+  and similar): the current mode is rendered as an icon **inside the lens**
+  — ▶ for READY, a flame for SAUNA, a "Z" for RELAX, and "||" for PAUSED.
+  Phase timer and total time sit to the left of the lens; heart rate,
+  temperature, calories, counts and clock fill the area below.
+
+### Fixed
+- Layout on Instinct 2/2S/2X no longer clips the title and timer behind the
+  sub-display lens.
+
 ## [1.0.0] — 2026-05-27
 
 Initial release.
